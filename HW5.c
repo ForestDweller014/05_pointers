@@ -57,7 +57,7 @@ int main() {
 
 	int a;
 	for (a = 0; a < 4; a++) {
-		printf("char %d: %hhu\n", (a + 1), *(cvar + a));
+		printf("Byte %d: %hhu\n", (a + 1), *(cvar + a));
 	}
 
 	printf("\nStep 10\n");
@@ -68,7 +68,7 @@ int main() {
 	printf("var: %u\n", var);
 	printf("var: %x\n", var);
 	for (a = 0; a < 4; a++) {
-		printf("char %d: %hhu\n", (a + 1), *(cvar + a));
+		printf("Byte %d: %hhu\n", (a + 1), *(cvar + a));
 	}
 
 	printf("\nStep 11\n");
@@ -79,7 +79,7 @@ int main() {
 	printf("var: %u\n", var);
 	printf("var: %x\n", var);
 	for (a = 0; a < 4; a++) {
-		printf("char %d: %hhu\n", (a + 1), *(cvar + a));
+		printf("Byte %d: %hhu\n", (a + 1), *(cvar + a));
 	}
 
 	return 0;
